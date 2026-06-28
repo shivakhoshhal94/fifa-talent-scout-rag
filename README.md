@@ -313,8 +313,20 @@ fifa-talent-scout-rag/
 └── assets/
     └── screenshots/
         └── scout_workflow_collage.png
-```
+        
+---
+## Dataset
 
+This project uses the **FIFA 23 Complete Player Dataset** by **Stefano Leone** on Kaggle.
+
+The dataset contains FIFA player, team, and coach data across multiple releases from FIFA 15 to FIFA 23. It includes 110+ player attributes such as ratings, technical skills, physical attributes, nationality, club, league, position, market value, wage, and preferred foot.
+
+The original data was scraped from **sofifa.com**. Please refer to the Kaggle dataset page and original source for license, terms, and attribution details.
+
+The raw CSV files are intentionally excluded from this repository because they are large. To reproduce the project locally, download the dataset from Kaggle and place the required file here:
+
+```text
+data/male_players.csv
 ---
 
 ## Main Components
